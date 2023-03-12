@@ -6,5 +6,5 @@ jobs:
     steps:
       - name: pipe test
         run: |
-          echo: "First message"
-          echo: "Second message"
+          echo "First message"
+          echo "Second message"
