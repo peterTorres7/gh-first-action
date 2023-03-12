@@ -1,4 +1,4 @@
-name: Pipe command
+name: Pipe workflow
 on: workflow_dispatch
 jobs:
   pipe-job:
