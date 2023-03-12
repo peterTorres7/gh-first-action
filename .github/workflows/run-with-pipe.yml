@@ -1,0 +1,10 @@
+name: Pipe command
+on: workflow_dispatch
+jobs:
+  pipe-job:
+    runs-on: ubuntu latest
+    steps:
+      - name: pipe test
+        run: |
+          echo: "First message"
+          echo: "Second message"
